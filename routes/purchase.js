@@ -15,7 +15,7 @@ router.get("/api/vendor/purchases", function(req, res){
 //once money counter table is updated, log of purchase is made
 router.post("/api/customer/items/:itemId/purchases", function(req,res){
   let purchaseMoney = req.body.moneyGiven
-  console.log(purchaseMoney)
+  console.log("purchaseMoney", purchaseMoney)
   models.vendingItem.findOne({
     where:{
       id: req.params.itemId
