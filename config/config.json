@@ -1,20 +1,20 @@
 {
   "development": {
-    "username": "kp",
-    "password": "Gutengut12",
+    "username": "",
+    "password": "",
     "database": "vendingdb",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
-    "username": "kp",
-    "password": "Gutengut12",
+    "username": "",
+    "password": "",
     "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "username": "kp",
+    "username": "",
     "password": null,
     "database": "database_production",
     "host": "127.0.0.1",
